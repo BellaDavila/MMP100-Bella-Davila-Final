@@ -1,0 +1,100 @@
+/*Navigation Adjustment==============*/
+nav ul {
+    list-style: none;
+    padding: 10;
+    margin: 24;
+}
+nav li {
+    display: inline; /* brings nav elements up next to each other */
+    list-style-type: none; /* removes the bullet points */
+    padding-right: 24px; /* spaces them out from each other. Adjust to suit your needs */
+}
+/*Header Adjustments ===========*/
+header {
+    background-color: #000000;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 47px;
+}
+/*Background Page Color ======*/
+body {
+    background-color: #fffefa;
+}
+
+/*link Color Options =========*/
+a {
+    color: #a97218;
+}
+a:hover {
+    color: #fcc4ef;
+}
+a:visited {
+    color: #a97218;
+}
+
+/*Navigation Text Color Options =========*/
+nav a {
+    color: #fffefa;
+}
+nav a:hover {
+    color: #fcc4ef;
+}
+nav a:visited {
+    color: #fffefa;
+}
+
+/*Code to remove underline on links ==========*/
+a:link,a:visited,a:hover,a:active {
+    text-decoration: none;
+}
+/*Heading Font and alignment center =========*/
+h1,h2,h3,h4,h5,h6 {
+    font-family:
+        Didot,
+        Didot LT STD,
+        Hoefler Text,
+        Garamond,
+        Times New Roman,
+        serif;
+}
+h1,h2,h3,h4,h5,h6,h7 {
+    text-align: center;
+}
+/*Body Font ==========*/
+body {
+    font-family:
+        Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+}
+
+/*Images adjustment ========= */
+.row1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.Favorites .image {
+    width: 50%;
+}
+.home .image {
+    width: 76%;
+}
+.img-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+footer {
+    background-color: #1f1f1f;
+	color: #fffefa;
+    text-align-last: center;
+	margin-top: 23px;
+	padding: 4px
+}
+/* Audio Centering ======== */
+audio-container {
+      text-align: center;
+    }
+
